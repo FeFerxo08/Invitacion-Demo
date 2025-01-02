@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f8ede3, #fff7f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invitation-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background: #e63946;
+    color: white;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+    font-style: italic;
+}
+
+.content {
+    padding: 20px;
+}
+
+.details, .menu, .location {
+    margin-bottom: 20px;
+}
+
+.details h2, .menu h2, .location h2 {
+    color: #e63946;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.map-link {
+    color: #e63946;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.map-link:hover {
+    color: #d62828;
+}
+
+.footer {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
